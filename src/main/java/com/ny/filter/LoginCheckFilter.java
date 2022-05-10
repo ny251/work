@@ -57,10 +57,11 @@ public class LoginCheckFilter implements Filter {
             return;
         }
         log.info("用户未登录");
+        log.info("用户未登录");
         response.getWriter().write(JSON.toJSONString(R.error("NOTLOGIN")));
         return;
 
-
+///sjdlfsdl
       //  log.info("拦截：{}",request.getRequestURI());
       //  filterChain.doFilter(request,response);
     }
