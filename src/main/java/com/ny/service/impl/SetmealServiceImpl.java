@@ -3,7 +3,7 @@ package com.ny.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ny.common.CustomException;
-import com.ny.dto.SetmealDto;
+import com.ny.entity.dto.SetmealDto;
 import com.ny.entity.Setmeal;
 import com.ny.entity.SetmealDish;
 import com.ny.mapper.SetmealMapper;
