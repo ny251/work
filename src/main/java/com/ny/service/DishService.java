@@ -1,7 +1,7 @@
 package com.ny.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ny.dto.DishDto;
+import com.ny.entity.dto.DishDto;
 import com.ny.entity.Dish;
 
 public interface DishService extends IService<Dish> {

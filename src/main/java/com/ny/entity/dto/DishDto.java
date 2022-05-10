@@ -1,4 +1,4 @@
-package com.ny.dto;
+package com.ny.entity.dto;
 
 import com.ny.entity.Dish;
 import com.ny.entity.DishFlavor;

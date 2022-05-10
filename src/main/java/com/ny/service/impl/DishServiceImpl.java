@@ -2,7 +2,7 @@ package com.ny.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.ny.dto.DishDto;
+import com.ny.entity.dto.DishDto;
 import com.ny.entity.Dish;
 import com.ny.entity.DishFlavor;
 import com.ny.mapper.DishMapper;
