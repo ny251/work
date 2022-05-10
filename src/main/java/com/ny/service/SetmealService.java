@@ -1,7 +1,7 @@
 package com.ny.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ny.dto.SetmealDto;
+import com.ny.entity.dto.SetmealDto;
 import com.ny.entity.Setmeal;
 
 import java.util.List;
