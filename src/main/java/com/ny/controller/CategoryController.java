@@ -7,6 +7,8 @@ import com.ny.entity.Category;
 import com.ny.service.CategoryService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -46,6 +48,8 @@ public class CategoryController {
         categoryService.updateById(category);
         return R.success("修改分类信息成功");
     }
+
+
 
     @GetMapping("/list")
     public R<List<Category>> list(Category category){
